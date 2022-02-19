@@ -1,0 +1,7 @@
+.ideas {
+  width: 80%;
+  display: flex;
+  margin-top: 340;
+  flex-direction: column;
+  margin-left: 80px;
+}
