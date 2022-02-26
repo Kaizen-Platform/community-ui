@@ -6,24 +6,25 @@ const Cards1=(props) => {
       
     <div>
         <>
-  <Card style={{ margin: '20 0 20 0' }}>
-    <Card.Img style={{paddingLeft:'100px', paddingTop:'150px', marginBottom :'15px'  }} variant="top" src='https://mdbootstrap.com/img/Photos/Avatars/avatar-1.webp '/>
-    <Card.Body style={{paddingLeft:'120px', fontSize:'20px' }}> {props.name}
-      <Card.Text>
+  <Card >
+    
+    <Card.Body style={{paddingTop:'10px', fontSize:'25x', backgroundColor: 'Yellow' }}> {props.name}
+      <Card.Text  style={{ fontSize:'20px' }}>
       {props.description}
       </Card.Text>
     </Card.Body>
   </Card>
   <br />
-  <Card style={{ margin: '20 0 20 0' }}>
-  <Card.Img style={{paddingLeft:'100px', paddingTop:'10px', marginTop :'15px'  }} variant="bottom" src='https://mdbootstrap.com/img/Photos/Avatars/avatar-1.webp' />
-    <Card.Body style={{ paddingLeft:'120px', fontSize:'10px' }}> {props.name}
-      <Card.Text style={{paddingTop:'40px', fontSize:'20px' }} >
+  <Card >
+  
+    <Card.Body style={{  fontSize:'25px',backgroundColor: '#0708' }}> {props.name}
+      <Card.Text style={{ fontSize:'20px' }} >
       {props.description}
       </Card.Text>
     </Card.Body>
     
   </Card>
+  
 </>
     </div>
   )

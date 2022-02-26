@@ -7,6 +7,10 @@ import Home from './pages/Home';
 import Employees from './pages/Employees';
 import Ideas from './pages/Ideas';
 import Support from './pages/Support';
+import { progress } from './pages/progress';
+
+import { BrowserRouter } from 'react-router-dom';
+import admin from './pages/admin';
 
 function App() {
   return (
@@ -16,15 +20,19 @@ function App() {
       <Router>
       <TopNav />
       
-        <Navbar/>
+      
         <Switch>
+        
+          
           <Route path='/' exact component={Home} />
           <Route path='/employees' component={Employees} />
           <Route path='/ideas' component={Ideas} />
-          <Route path='/' component={Support} />
+          <Route path='/support' component={Support} />
+          <Route path='/Admin' component={admin} />
+          <Route path='/progress' component={progress} />
         </Switch>
       </Router>
-    
+      
       </div>
   );
 }

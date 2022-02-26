@@ -3,6 +3,7 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as BiIcons from 'react-icons/bi';
+import * as RiIcons from 'react-icons/ri'
 
 export const SidebarData = [
   {
@@ -24,9 +25,22 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   
+  
+  {
+    title: 'Admin',
+    path: '/Admin',
+    icon: <RiIcons.RiAdminFill />,
+    cName: 'nav-text'
+  },
   {
     title: 'Support',
     path: '/support',
+    icon: <IoIcons.IoMdHelpCircle />,
+    cName: 'nav-text'
+  },
+  {
+    title: 'Review Form',
+    path: '/progress',
     icon: <IoIcons.IoMdHelpCircle />,
     cName: 'nav-text'
   }

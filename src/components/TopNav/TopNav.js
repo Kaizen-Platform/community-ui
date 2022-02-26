@@ -30,7 +30,14 @@ class TopNav  extends Component{
                  )
                 })}
             </ul>
-            <Button>Committee member view</Button>
+            
+
+            <Button
+    type="button"
+    onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://www.cdata.com/';
+      }}>Cdata official website</Button>
             </nav>
             <Navbar />
             </>

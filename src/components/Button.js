@@ -5,12 +5,10 @@ const STYLES = [
     'btn--primary',
     'btn--outline'
 ]
-
 const SIZES = [
     'btn--medium',
     'btn--large'
 ]
-
 export function Button({
     children, type, onClick, buttonStyle, buttonSize
 }) {
